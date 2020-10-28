@@ -1,0 +1,13 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: sudoku-mysql-dev
+  namespace: tgs-sudoku-dev
+spec:
+  releaseName: sudoku-mysql-dev
+  chart:
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    name: mysql
+  values:
+    mysqlRootPassword: testpassword
