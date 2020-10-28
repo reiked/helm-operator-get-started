@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: reiked/podinfo
-      tag: dev-hdtwcel9
+      tag: dev-koom0bym
     replicaCount: 1
     hpa:
       enabled: false
