@@ -8,6 +8,6 @@ spec:
   releaseName: sudoku-redis-dev
   chart:
     repository: https://charts.bitnami.com/bitnami
-    name: redis
+    name: bitnami/redis
   values:
     password: testpassword
