@@ -79,7 +79,8 @@ Install Flux by specifying your fork URL (replace `fluxcd` with your GitHub user
 ```bash
 helm upgrade -i flux fluxcd/flux --wait \
 --namespace fluxcd \
---set git.url=git@github.com:fluxcd/helm-operator-get-started
+--set git.url=git@github.com:reiked/helm-operator-get-started \
+--set git.path="releases/adm\,releases/dev\,releases/stg"
 ```
 
 Install the `HelmRelease` Kubernetes custom resource definition:
