@@ -2,7 +2,7 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: sudoku-redis-dev
+  name: redis
   namespace: tgs-sudoku-dev
 spec:
   releaseName: sudoku-redis-dev
