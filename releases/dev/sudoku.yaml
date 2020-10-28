@@ -3,7 +3,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: sudoku-dev
-  namespace: sudoku-dev
+  namespace: tgs-sudoku-dev
   annotations:
     fluxcd.io/automated: "true"
 spec:
