@@ -28,13 +28,11 @@ spec:
       pullPolicy: Always
       redis:
         host: redis-master
-        password: testpassword
         port: 6379
       database:
         host: mysql
         port: 3306
         user: root
-        password: testpassword
         name: sudoku
         proxySql:
           enable: false
@@ -61,4 +59,6 @@ spec:
     tolerations: []
 
     affinity: {}
-
+  valuesFrom:
+    - secretKeyRef:
+        name: sudoku-secret
