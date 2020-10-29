@@ -1,0 +1,15 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: sudoku-secret
+  namespace: tgs-sudoku-dev
+spec:
+  encryptedData:
+    values.yaml: AgBXQhyzjyd7CZZHv6s1oqqwYdHvNhP0eV4va43G1DamfK94CTv82h/U9du8ZDSOYYBwZ9aUvdKTbrjE3jF+9YtI3P/yjipxl7Y7Yh8zvQy+7032s+IBNEQuMiohfNz0wTs7SbvJts9mhJMDOfdYqR6bGMaL1flc4lQnEyGexPwzI52dnlZWZOzyrnYZ3kNTSYR5T6T9KXewcWXcZzZbgEFU7O/969g7hV4GQOSGY1DVXjQozWqLXBa5bN9hFU1n7uVbC/NAwd9eicUgRYQxnnn1SmC+zoL61hP6EZ6cTFGjea8Zlz14Zdh5BxtqggzzM8ZhPneTpPyeVPIQlDaDOHr1ylIKo3B0nqXH/MQzjZifPviQlAFKb+dvHl385WRTA+jvRMAMdEYZAslij3Cp3+IY1Z9ZueNF8eRdonCmdggr/k1DtVJTdiHUJJziAI3ZaUvrAOnQKfLE9et+p2P+rt27qJOQXkOk34RmikkoklEjQo5aQBZ2cgjcpw0uPWF6Z/fOyXYqyFXlPVnGYHMEWqYIW1x1lOa9rA7qMDz/l2oc+FxiiHoZFtcv2i9WtTXC7RK78AItxSaLY6WeOm40stDUzwnNxfg1zRM12elhu5ZXIAL6ooyEIdSpbC7QLPV4TcVtvxRDVvYwlgNNonBJqgP86owjdA6bDy5ompIIFkBmrOhN/XUNEghgyXjyOAqMzzB0s2bBPXb4NyMOU5ewiK+PGUhsxyAB01csFxOKKrSkHV2LKwvjHTQtcJVBYUsk+0j0RMCOiksReZwtdIa352bC56HyWuKdXSDramMTeCJzREyX
+  template:
+    metadata:
+      creationTimestamp: null
+      name: sudoku-secret
+      namespace: tgs-sudoku-dev
+
